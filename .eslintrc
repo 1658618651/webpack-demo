@@ -1,0 +1,16 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        // 以模块的方式存在
+        "ecmaFeatures": {
+            "jsx":true//某些特性是否兼容
+        }
+    },
+    "rules": {
+        "indent":["error",2],//缩进数量
+        "linebreak-style":["error","unix"],
+        "quotes":["error","double"],//只能双引号
+        "semi":["error","always"]//
+    }
+}
